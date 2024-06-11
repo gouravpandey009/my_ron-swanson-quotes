@@ -30,7 +30,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "flow": "flow"
+    "flow": "flow",
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.6",
