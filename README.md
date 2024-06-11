@@ -1,4 +1,3 @@
-```markdown
 # Ron Swansons Quotes🌟
 
 Welcome to Ron Swansons Quotes, a dynamic list container application where you can rate and manage Ron Swanson's quotes. This project utilizes React.js and Semantic UI for styling to provide a seamless user experience.
@@ -46,5 +45,3 @@ npm run flow
 - To delete a row, click on the trash can icon next to the respective row.
 - To select a row, click on the row.
 - You can either provide no rating or a numerical rating. A string is not an acceptable rating.
-```
-"# ron_swanson_quotes_generator" 
