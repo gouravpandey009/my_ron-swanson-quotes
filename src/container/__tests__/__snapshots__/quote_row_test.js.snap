@@ -1,0 +1,1247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`quote row renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <QuoteRow />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <table
+        className="ui celled padded selectable table"
+>
+        <thead>
+                <tr>
+                        <th
+                                className="ui blue Change"
+                                onClick={[Function]}
+                        >
+                                Quote
+                        </th>
+                        <th
+                                className="ui blue Change center aligned"
+                                onClick={[Function]}
+                        >
+                                Rating
+                        </th>
+                        <th
+                                className="ui Change_Red center aligned"
+                        >
+                                Delete
+                        </th>
+                </tr>
+        </thead>
+        <tbody>
+                <tr
+                        className=""
+                        onClick={[Function]}
+                >
+                        <td>
+                                I'm a simple man.  I like pretty, dark-haired women and breakfast food.
+                        </td>
+                        <td
+                                className="center aligned"
+                        >
+                                10
+                        </td>
+                        <td
+                                className="center aligned"
+                        >
+                                <i
+                                        className="icon trash alternate outline center"
+                                        onClick={[Function]}
+                                />
+                        </td>
+                </tr>
+                <tr
+                        className=""
+                        onClick={[Function]}
+                >
+                        <td>
+                                Don’t get emotional Vaughn, you’re embarrassing yourself.
+                        </td>
+                        <td
+                                className="center aligned"
+                        >
+                                20
+                        </td>
+                        <td
+                                className="center aligned"
+                        >
+                                <i
+                                        className="icon trash alternate outline center"
+                                        onClick={[Function]}
+                                />
+                        </td>
+                </tr>
+                <tr
+                        className=""
+                        onClick={[Function]}
+                >
+                        <td>
+                                Tom, I took the quiz in your book about what kind of person I am. I’m a Ron.”
+                        </td>
+                        <td
+                                className="center aligned"
+                        >
+                                2
+                        </td>
+                        <td
+                                className="center aligned"
+                        >
+                                <i
+                                        className="icon trash alternate outline center"
+                                        onClick={[Function]}
+                                />
+                        </td>
+                </tr>
+        </tbody>
+</table>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <thead>
+            <tr>
+                        <th
+                                    className="ui blue Change"
+                                    onClick={[Function]}
+                        >
+                                    Quote
+                        </th>
+                        <th
+                                    className="ui blue Change center aligned"
+                                    onClick={[Function]}
+                        >
+                                    Rating
+                        </th>
+                        <th
+                                    className="ui Change_Red center aligned"
+                        >
+                                    Delete
+                        </th>
+            </tr>
+</thead>,
+          <tbody>
+            <tr
+                        className=""
+                        onClick={[Function]}
+            >
+                        <td>
+                                    I'm a simple man.  I like pretty, dark-haired women and breakfast food.
+                        </td>
+                        <td
+                                    className="center aligned"
+                        >
+                                    10
+                        </td>
+                        <td
+                                    className="center aligned"
+                        >
+                                    <i
+                                                className="icon trash alternate outline center"
+                                                onClick={[Function]}
+                                    />
+                        </td>
+            </tr>
+            <tr
+                        className=""
+                        onClick={[Function]}
+            >
+                        <td>
+                                    Don’t get emotional Vaughn, you’re embarrassing yourself.
+                        </td>
+                        <td
+                                    className="center aligned"
+                        >
+                                    20
+                        </td>
+                        <td
+                                    className="center aligned"
+                        >
+                                    <i
+                                                className="icon trash alternate outline center"
+                                                onClick={[Function]}
+                                    />
+                        </td>
+            </tr>
+            <tr
+                        className=""
+                        onClick={[Function]}
+            >
+                        <td>
+                                    Tom, I took the quiz in your book about what kind of person I am. I’m a Ron.”
+                        </td>
+                        <td
+                                    className="center aligned"
+                        >
+                                    2
+                        </td>
+                        <td
+                                    className="center aligned"
+                        >
+                                    <i
+                                                className="icon trash alternate outline center"
+                                                onClick={[Function]}
+                                    />
+                        </td>
+            </tr>
+</tbody>,
+        ],
+        "className": "ui celled padded selectable table",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <tr>
+              <th
+                            className="ui blue Change"
+                            onClick={[Function]}
+              >
+                            Quote
+              </th>
+              <th
+                            className="ui blue Change center aligned"
+                            onClick={[Function]}
+              >
+                            Rating
+              </th>
+              <th
+                            className="ui Change_Red center aligned"
+              >
+                            Delete
+              </th>
+</tr>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <th
+                  className="ui blue Change"
+                  onClick={[Function]}
+>
+                  Quote
+</th>,
+                <th
+                  className="ui blue Change center aligned"
+                  onClick={[Function]}
+>
+                  Rating
+</th>,
+                <th
+                  className="ui Change_Red center aligned"
+>
+                  Delete
+</th>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Quote",
+                  "className": "ui blue Change",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Quote",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Rating",
+                  "className": "ui blue Change center aligned",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Rating",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Delete",
+                  "className": "ui Change_Red center aligned",
+                },
+                "ref": null,
+                "rendered": "Delete",
+                "type": "th",
+              },
+            ],
+            "type": "tr",
+          },
+          "type": "thead",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <tr
+                className=""
+                onClick={[Function]}
+>
+                <td>
+                                I'm a simple man.  I like pretty, dark-haired women and breakfast food.
+                </td>
+                <td
+                                className="center aligned"
+                >
+                                10
+                </td>
+                <td
+                                className="center aligned"
+                >
+                                <i
+                                                className="icon trash alternate outline center"
+                                                onClick={[Function]}
+                                />
+                </td>
+</tr>,
+              <tr
+                className=""
+                onClick={[Function]}
+>
+                <td>
+                                Don’t get emotional Vaughn, you’re embarrassing yourself.
+                </td>
+                <td
+                                className="center aligned"
+                >
+                                20
+                </td>
+                <td
+                                className="center aligned"
+                >
+                                <i
+                                                className="icon trash alternate outline center"
+                                                onClick={[Function]}
+                                />
+                </td>
+</tr>,
+              <tr
+                className=""
+                onClick={[Function]}
+>
+                <td>
+                                Tom, I took the quiz in your book about what kind of person I am. I’m a Ron.”
+                </td>
+                <td
+                                className="center aligned"
+                >
+                                2
+                </td>
+                <td
+                                className="center aligned"
+                >
+                                <i
+                                                className="icon trash alternate outline center"
+                                                onClick={[Function]}
+                                />
+                </td>
+</tr>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <td>
+                    I'm a simple man.  I like pretty, dark-haired women and breakfast food.
+</td>,
+                  <td
+                    className="center aligned"
+>
+                    10
+</td>,
+                  <td
+                    className="center aligned"
+>
+                    <i
+                                        className="icon trash alternate outline center"
+                                        onClick={[Function]}
+                    />
+</td>,
+                ],
+                "className": "",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "I'm a simple man.  I like pretty, dark-haired women and breakfast food.",
+                  },
+                  "ref": null,
+                  "rendered": "I'm a simple man.  I like pretty, dark-haired women and breakfast food.",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 10,
+                    "className": "center aligned",
+                  },
+                  "ref": null,
+                  "rendered": 10,
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <i
+                      className="icon trash alternate outline center"
+                      onClick={[Function]}
+/>,
+                    "className": "center aligned",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "icon trash alternate outline center",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "i",
+                  },
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <td>
+                    Don’t get emotional Vaughn, you’re embarrassing yourself.
+</td>,
+                  <td
+                    className="center aligned"
+>
+                    20
+</td>,
+                  <td
+                    className="center aligned"
+>
+                    <i
+                                        className="icon trash alternate outline center"
+                                        onClick={[Function]}
+                    />
+</td>,
+                ],
+                "className": "",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Don’t get emotional Vaughn, you’re embarrassing yourself.",
+                  },
+                  "ref": null,
+                  "rendered": "Don’t get emotional Vaughn, you’re embarrassing yourself.",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 20,
+                    "className": "center aligned",
+                  },
+                  "ref": null,
+                  "rendered": 20,
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <i
+                      className="icon trash alternate outline center"
+                      onClick={[Function]}
+/>,
+                    "className": "center aligned",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "icon trash alternate outline center",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "i",
+                  },
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <td>
+                    Tom, I took the quiz in your book about what kind of person I am. I’m a Ron.”
+</td>,
+                  <td
+                    className="center aligned"
+>
+                    2
+</td>,
+                  <td
+                    className="center aligned"
+>
+                    <i
+                                        className="icon trash alternate outline center"
+                                        onClick={[Function]}
+                    />
+</td>,
+                ],
+                "className": "",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Tom, I took the quiz in your book about what kind of person I am. I’m a Ron.”",
+                  },
+                  "ref": null,
+                  "rendered": "Tom, I took the quiz in your book about what kind of person I am. I’m a Ron.”",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 2,
+                    "className": "center aligned",
+                  },
+                  "ref": null,
+                  "rendered": 2,
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <i
+                      className="icon trash alternate outline center"
+                      onClick={[Function]}
+/>,
+                    "className": "center aligned",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "icon trash alternate outline center",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "i",
+                  },
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+          ],
+          "type": "tbody",
+        },
+      ],
+      "type": "table",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <table
+          className="ui celled padded selectable table"
+>
+          <thead>
+                    <tr>
+                              <th
+                                        className="ui blue Change"
+                                        onClick={[Function]}
+                              >
+                                        Quote
+                              </th>
+                              <th
+                                        className="ui blue Change center aligned"
+                                        onClick={[Function]}
+                              >
+                                        Rating
+                              </th>
+                              <th
+                                        className="ui Change_Red center aligned"
+                              >
+                                        Delete
+                              </th>
+                    </tr>
+          </thead>
+          <tbody>
+                    <tr
+                              className=""
+                              onClick={[Function]}
+                    >
+                              <td>
+                                        I'm a simple man.  I like pretty, dark-haired women and breakfast food.
+                              </td>
+                              <td
+                                        className="center aligned"
+                              >
+                                        10
+                              </td>
+                              <td
+                                        className="center aligned"
+                              >
+                                        <i
+                                                  className="icon trash alternate outline center"
+                                                  onClick={[Function]}
+                                        />
+                              </td>
+                    </tr>
+                    <tr
+                              className=""
+                              onClick={[Function]}
+                    >
+                              <td>
+                                        Don’t get emotional Vaughn, you’re embarrassing yourself.
+                              </td>
+                              <td
+                                        className="center aligned"
+                              >
+                                        20
+                              </td>
+                              <td
+                                        className="center aligned"
+                              >
+                                        <i
+                                                  className="icon trash alternate outline center"
+                                                  onClick={[Function]}
+                                        />
+                              </td>
+                    </tr>
+                    <tr
+                              className=""
+                              onClick={[Function]}
+                    >
+                              <td>
+                                        Tom, I took the quiz in your book about what kind of person I am. I’m a Ron.”
+                              </td>
+                              <td
+                                        className="center aligned"
+                              >
+                                        2
+                              </td>
+                              <td
+                                        className="center aligned"
+                              >
+                                        <i
+                                                  className="icon trash alternate outline center"
+                                                  onClick={[Function]}
+                                        />
+                              </td>
+                    </tr>
+          </tbody>
+</table>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <thead>
+              <tr>
+                            <th
+                                          className="ui blue Change"
+                                          onClick={[Function]}
+                            >
+                                          Quote
+                            </th>
+                            <th
+                                          className="ui blue Change center aligned"
+                                          onClick={[Function]}
+                            >
+                                          Rating
+                            </th>
+                            <th
+                                          className="ui Change_Red center aligned"
+                            >
+                                          Delete
+                            </th>
+              </tr>
+</thead>,
+            <tbody>
+              <tr
+                            className=""
+                            onClick={[Function]}
+              >
+                            <td>
+                                          I'm a simple man.  I like pretty, dark-haired women and breakfast food.
+                            </td>
+                            <td
+                                          className="center aligned"
+                            >
+                                          10
+                            </td>
+                            <td
+                                          className="center aligned"
+                            >
+                                          <i
+                                                        className="icon trash alternate outline center"
+                                                        onClick={[Function]}
+                                          />
+                            </td>
+              </tr>
+              <tr
+                            className=""
+                            onClick={[Function]}
+              >
+                            <td>
+                                          Don’t get emotional Vaughn, you’re embarrassing yourself.
+                            </td>
+                            <td
+                                          className="center aligned"
+                            >
+                                          20
+                            </td>
+                            <td
+                                          className="center aligned"
+                            >
+                                          <i
+                                                        className="icon trash alternate outline center"
+                                                        onClick={[Function]}
+                                          />
+                            </td>
+              </tr>
+              <tr
+                            className=""
+                            onClick={[Function]}
+              >
+                            <td>
+                                          Tom, I took the quiz in your book about what kind of person I am. I’m a Ron.”
+                            </td>
+                            <td
+                                          className="center aligned"
+                            >
+                                          2
+                            </td>
+                            <td
+                                          className="center aligned"
+                            >
+                                          <i
+                                                        className="icon trash alternate outline center"
+                                                        onClick={[Function]}
+                                          />
+                            </td>
+              </tr>
+</tbody>,
+          ],
+          "className": "ui celled padded selectable table",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <tr>
+                <th
+                                className="ui blue Change"
+                                onClick={[Function]}
+                >
+                                Quote
+                </th>
+                <th
+                                className="ui blue Change center aligned"
+                                onClick={[Function]}
+                >
+                                Rating
+                </th>
+                <th
+                                className="ui Change_Red center aligned"
+                >
+                                Delete
+                </th>
+</tr>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <th
+                    className="ui blue Change"
+                    onClick={[Function]}
+>
+                    Quote
+</th>,
+                  <th
+                    className="ui blue Change center aligned"
+                    onClick={[Function]}
+>
+                    Rating
+</th>,
+                  <th
+                    className="ui Change_Red center aligned"
+>
+                    Delete
+</th>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Quote",
+                    "className": "ui blue Change",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "Quote",
+                  "type": "th",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Rating",
+                    "className": "ui blue Change center aligned",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "Rating",
+                  "type": "th",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Delete",
+                    "className": "ui Change_Red center aligned",
+                  },
+                  "ref": null,
+                  "rendered": "Delete",
+                  "type": "th",
+                },
+              ],
+              "type": "tr",
+            },
+            "type": "thead",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <tr
+                  className=""
+                  onClick={[Function]}
+>
+                  <td>
+                                    I'm a simple man.  I like pretty, dark-haired women and breakfast food.
+                  </td>
+                  <td
+                                    className="center aligned"
+                  >
+                                    10
+                  </td>
+                  <td
+                                    className="center aligned"
+                  >
+                                    <i
+                                                      className="icon trash alternate outline center"
+                                                      onClick={[Function]}
+                                    />
+                  </td>
+</tr>,
+                <tr
+                  className=""
+                  onClick={[Function]}
+>
+                  <td>
+                                    Don’t get emotional Vaughn, you’re embarrassing yourself.
+                  </td>
+                  <td
+                                    className="center aligned"
+                  >
+                                    20
+                  </td>
+                  <td
+                                    className="center aligned"
+                  >
+                                    <i
+                                                      className="icon trash alternate outline center"
+                                                      onClick={[Function]}
+                                    />
+                  </td>
+</tr>,
+                <tr
+                  className=""
+                  onClick={[Function]}
+>
+                  <td>
+                                    Tom, I took the quiz in your book about what kind of person I am. I’m a Ron.”
+                  </td>
+                  <td
+                                    className="center aligned"
+                  >
+                                    2
+                  </td>
+                  <td
+                                    className="center aligned"
+                  >
+                                    <i
+                                                      className="icon trash alternate outline center"
+                                                      onClick={[Function]}
+                                    />
+                  </td>
+</tr>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <td>
+                      I'm a simple man.  I like pretty, dark-haired women and breakfast food.
+</td>,
+                    <td
+                      className="center aligned"
+>
+                      10
+</td>,
+                    <td
+                      className="center aligned"
+>
+                      <i
+                                            className="icon trash alternate outline center"
+                                            onClick={[Function]}
+                      />
+</td>,
+                  ],
+                  "className": "",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "I'm a simple man.  I like pretty, dark-haired women and breakfast food.",
+                    },
+                    "ref": null,
+                    "rendered": "I'm a simple man.  I like pretty, dark-haired women and breakfast food.",
+                    "type": "td",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": 10,
+                      "className": "center aligned",
+                    },
+                    "ref": null,
+                    "rendered": 10,
+                    "type": "td",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <i
+                        className="icon trash alternate outline center"
+                        onClick={[Function]}
+/>,
+                      "className": "center aligned",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "icon trash alternate outline center",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "i",
+                    },
+                    "type": "td",
+                  },
+                ],
+                "type": "tr",
+              },
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <td>
+                      Don’t get emotional Vaughn, you’re embarrassing yourself.
+</td>,
+                    <td
+                      className="center aligned"
+>
+                      20
+</td>,
+                    <td
+                      className="center aligned"
+>
+                      <i
+                                            className="icon trash alternate outline center"
+                                            onClick={[Function]}
+                      />
+</td>,
+                  ],
+                  "className": "",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Don’t get emotional Vaughn, you’re embarrassing yourself.",
+                    },
+                    "ref": null,
+                    "rendered": "Don’t get emotional Vaughn, you’re embarrassing yourself.",
+                    "type": "td",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": 20,
+                      "className": "center aligned",
+                    },
+                    "ref": null,
+                    "rendered": 20,
+                    "type": "td",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <i
+                        className="icon trash alternate outline center"
+                        onClick={[Function]}
+/>,
+                      "className": "center aligned",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "icon trash alternate outline center",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "i",
+                    },
+                    "type": "td",
+                  },
+                ],
+                "type": "tr",
+              },
+              Object {
+                "instance": null,
+                "key": "2",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <td>
+                      Tom, I took the quiz in your book about what kind of person I am. I’m a Ron.”
+</td>,
+                    <td
+                      className="center aligned"
+>
+                      2
+</td>,
+                    <td
+                      className="center aligned"
+>
+                      <i
+                                            className="icon trash alternate outline center"
+                                            onClick={[Function]}
+                      />
+</td>,
+                  ],
+                  "className": "",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Tom, I took the quiz in your book about what kind of person I am. I’m a Ron.”",
+                    },
+                    "ref": null,
+                    "rendered": "Tom, I took the quiz in your book about what kind of person I am. I’m a Ron.”",
+                    "type": "td",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": 2,
+                      "className": "center aligned",
+                    },
+                    "ref": null,
+                    "rendered": 2,
+                    "type": "td",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <i
+                        className="icon trash alternate outline center"
+                        onClick={[Function]}
+/>,
+                      "className": "center aligned",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "icon trash alternate outline center",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "i",
+                    },
+                    "type": "td",
+                  },
+                ],
+                "type": "tr",
+              },
+            ],
+            "type": "tbody",
+          },
+        ],
+        "type": "table",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

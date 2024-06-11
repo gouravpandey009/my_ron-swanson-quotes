@@ -1,0 +1,71 @@
+/* index.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #f0f0f0; /* Background color for the body */
+}
+
+.button_border {
+  border-radius: 20px !important;
+  padding: 10px 30px !important;
+}
+
+button:hover {
+  background-color: grey !important;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.buttons {
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+}
+
+.quote {
+  max-width: 60%;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff; /* Background color for the quote */
+  border-radius: 10px; /* Border radius for the quote container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for the quote container */
+  animation: moveAnimation 5s infinite alternate; /* Applying the moving animation */
+}
+
+/* Night animation */
+@keyframes night-animation {
+  0% {
+    background-color: #242943;
+  }
+  50% {
+    background-color: #1a1e33;
+  }
+  100% {
+    background-color: #242943;
+  }
+}
+
+.night-mode {
+  animation: night-animation 10s infinite alternate;
+}
+
+/* Moving animation */
+@keyframes moveAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

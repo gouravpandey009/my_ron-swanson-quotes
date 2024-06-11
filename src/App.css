@@ -1,0 +1,75 @@
+/* App.css */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h2 {
+  margin-bottom: 30px !important;
+  z-index: 1 !important;
+}
+
+#ron_image {
+  margin-bottom: -30px !important;
+  z-index: 0 !important;
+}
+
+#quote_rating {
+  border-color: #9fcee2 !important;
+  padding-top: 10px !important;
+}
+
+.ui.blue.Change {
+  border-radius: none !important;
+  background-color: #9fcee2 !important;
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.ui.blue.Change:hover {
+  background-color: rgba(159, 206, 226, 0.5) !important;
+}
+
+.Change_Red {
+  background-color: rgba(219, 78, 56, 0.8) !important;
+}
+
+.icon:hover {
+  color: rgba(219, 78, 56, 0.8) !important;
+}
+
+table {
+  margin-bottom: 20px !important;
+}
+
+button {
+  margin-top: 10px !important;
+}
